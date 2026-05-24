@@ -1,0 +1,5 @@
+config FOO
+    tristate "foo"
+
+config BAZ
+    tristate "baz"
