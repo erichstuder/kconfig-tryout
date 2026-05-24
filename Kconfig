@@ -1,5 +1,2 @@
-config FOO
-    tristate "foo"
-
-config BAZ
-    tristate "baz"
+source "../comp_a/Kconfig"
+source "../comp_b/Kconfig"

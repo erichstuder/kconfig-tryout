@@ -1,0 +1,3 @@
+config COMP_B_OUTPUT_VALUE
+    int "output value"
+    default -1

@@ -1,3 +1,2 @@
-.config
-*.old
-*.tmp
+build/
+.config.old

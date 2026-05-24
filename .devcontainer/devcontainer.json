@@ -5,7 +5,8 @@
         "vscode": {
             "extensions": [
                 "ybaumes.highlight-trailing-white-spaces",
-                "luveti.kconfig"
+                "luveti.kconfig",
+                "ms-vscode.cmake-tools"
             ]
         }
     }
