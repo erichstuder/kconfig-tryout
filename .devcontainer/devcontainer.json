@@ -1,0 +1,12 @@
+{
+    "name": "devcontainer",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ybaumes.highlight-trailing-white-spaces",
+                "luveti.kconfig"
+            ]
+        }
+    }
+}
