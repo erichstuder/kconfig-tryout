@@ -1,2 +1,11 @@
-source "../comp_a/Kconfig"
-source "../comp_b/Kconfig"
+source "comp_a/Kconfig"
+source "comp_b/Kconfig"
+
+config ENABLE_BASIC
+	bool "Enable Basic Mode"
+	default n
+
+config ENABLE_ADVANCED
+	bool "Enable Advanced Mode"
+    depends on ENABLE_BASIC
+	default n
